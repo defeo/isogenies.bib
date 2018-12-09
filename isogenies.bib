@@ -42,12 +42,11 @@
 
 @InProceedings{10.1007/978-3-319-70697-9_11,
   author    = {Costello, Craig and Hisil, Huseyin},
-  title     = {A Simple and Compact Algorithm for SIDH with Arbitrary Degree Isogenies},
+  title     = {A Simple and Compact Algorithm for {SIDH} with Arbitrary Degree Isogenies},
   booktitle = {Advances in Cryptology -- ASIACRYPT 2017},
   year      = {2017},
   editor    = {Takagi, Tsuyoshi and Peyrin, Thomas},
   pages     = {303--329},
-  address   = {Cham},
   publisher = {Springer International Publishing},
   abstract  = {We derive a new formula for computing arbitrary odd-degree isogenies between elliptic curves in Montgomery form. The formula lends itself to a simple and compact algorithm that can efficiently compute any low odd-degree isogenies inside the supersingular isogeny Diffie-Hellman (SIDH) key exchange protocol. Our implementation of this algorithm shows that, beyond the commonly used 3-isogenies, there is a moderate degradation in relative performance of                                                                                   {\$}{\$}(2d+1){\$}{\$}                                                                                            (                          2                          d                          +                          1                          )                                                                                    -isogenies as d grows, but that larger values of d can now be used in practical SIDH implementations.},
   groups    = {Isogenies},
@@ -56,8 +55,8 @@
 
 @InBook{Costello2017,
   author    = {Costello, Craig and Jao, David and Longa, Patrick and Naehrig, Michael and Renes, Joost and Urbanik, David},
-  title     = {Efficient Compression of SIDH Public Keys},
-  booktitle = {Advances in Cryptology -- EUROCRYPT 2017: 36th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Paris, France, April 30 -- May 4, 2017, Proceedings, Part I},
+  title     = {Efficient Compression of {SIDH} Public Keys},
+  booktitle = {Advances in Cryptology -- EUROCRYPT 2017: 36th Annual International Conference on the Theory and Applications of Cryptographic Techniques},
   year      = {2017},
   editor    = {Coron, Jean-S{\'e}bastien and Nielsen, Jesper Buus},
   publisher = {Springer International Publishing},
@@ -65,8 +64,6 @@
   pages     = {679--706},
   doi       = {10.1007/978-3-319-56620-7_24},
   abstract  = {Supersingular isogeny Diffie-Hellman (SIDH) is an attractive candidate for post-quantum key exchange, in large part due to its relatively small public key sizes. A recent paper by Azarderakhsh, Jao, Kalach, Koziel and Leonardi showed that the public keys defined in Jao and De Feo's original SIDH scheme can be further compressed by around a factor of two, but reported that the performance penalty in utilizing this compression blew the overall SIDH runtime out by more than an order of magnitude. Given that the runtime of SIDH key exchange is currently its main drawback in relation to its lattice- and code-based post-quantum alternatives, an order of magnitude performance penalty for a factor of two improvement in bandwidth presents a trade-off that is unlikely to favor public-key compression in many scenarios.},
-  address   = {Cham},
-  groups    = {Isogenies},
 }
 
 @InProceedings{costello2016sidh,
@@ -148,15 +145,14 @@
 
 @InCollection{GHS,
   author               = {Galbraith, Steven D. and Hess, Florian and Smart, Nigel P.},
-  title                = {Extending the {GHS} {W}eil descent attack},
-  booktitle            = {Advances in cryptology--{EUROCRYPT} 2002 ({A}msterdam)},
+  title                = {Extending the {GHS} {Weil} descent attack},
+  booktitle            = {Advances in cryptology--EUROCRYPT 2002 (Amsterdam)},
   year                 = {2002},
   volume               = {2332},
-  series               = {Lecture Notes in Comput. Sci.},
+  series               = {Lecture Notes in Computer Science},
   publisher            = {Springer},
   isbn                 = {3-540-43553-0},
   pages                = {29--44},
-  url                  = {http://portal.acm.org/citation.cfm?id=715831},
   address              = {Berlin},
   groups               = {Isogenies},
   keywords             = {cryptography, elliptic\_curve, ghs, isogenies, weil\_descent},
@@ -167,11 +163,10 @@
 @InProceedings{galbraithsecurity,
   author       = {Galbraith, Steven D. and Petit, Christophe and Shani, Barak and Ti, Yan Bo},
   title        = {On the security of supersingular isogeny cryptosystems},
-  booktitle    = {Advances in Cryptology--ASIACRYPT 2016: 22nd International Conference on the Theory and Application of Cryptology and Information Security, Hanoi, Vietnam, December 4-8, 2016, Proceedings, Part I 22},
+  booktitle    = {Advances in Cryptology--ASIACRYPT 2016: 22nd International Conference on the Theory and Application of Cryptology and Information Security},
   year         = {2016},
   pages        = {63--91},
   organization = {Springer},
-  groups       = {Isogenies},
 }
 
 @Misc{cryptoeprint:2016:1154,
@@ -224,11 +219,13 @@
 @InProceedings{jao2014isogeny,
   author    = {Jao, David and Soukharev, Vladimir},
   title     = {Isogeny-based quantum-resistant undeniable signatures},
-  booktitle = {International Workshop on Post-Quantum Cryptography},
+  booktitle = {Post-Quantum Cryptography: 6th International Workshop, PQCrypto 2014},
   year      = {2014},
+  publisher = {Springer International Publishing},
+  isbn      = {978-3-319-11659-4},
   pages     = {160--179},
-  publisher = {Springer},
-  groups    = {Isogenies},
+  doi       = {10.1007/978-3-319-11659-4_10},
+  address   = {Waterloo, ON, Canada},
 }
 
 @InProceedings{jao+soukharev10,
@@ -252,7 +249,7 @@
 }
 
 @Article{kohel2014quaternion,
-  author    = {Kohel, David and Lauter, Kristin and Petit, Christophe and Tignol, Jean-Pierre},
+  author    = {Kohel, David R. and Lauter, Kristin and Petit, Christophe and Tignol, Jean-Pierre},
   title     = {On the quaternion-isogeny path problem},
   journal   = {LMS Journal of Computation and Mathematics},
   year      = {2014},
@@ -327,15 +324,13 @@ requirement is only polynomial.},
 
 @InProceedings{10.1007/978-3-319-79063-3_11,
   author    = {Renes, Joost},
-  title     = {Computing Isogenies Between Montgomery Curves Using the Action of (0, 0)},
+  title     = {Computing Isogenies Between {M}ontgomery Curves Using the Action of (0, 0)},
   booktitle = {Post-Quantum Cryptography},
   year      = {2018},
   editor    = {Lange, Tanja and Steinwandt, Rainer},
   pages     = {229--247},
-  address   = {Cham},
   publisher = {Springer International Publishing},
   abstract  = {A recent paper by Costello and Hisil at Asiacrypt'17 presents efficient formulas for computing isogenies with odd-degree cyclic kernels on Montgomery curves. We provide a constructive proof of a generalization of this theorem which shows the connection between the shape of the isogeny and the simple action of the point                                                                                   {\$}{\$}(0,0){\$}{\$}                  . This generalization removes the restriction of a cyclic kernel and allows for any separable isogeny whose kernel does not contain                                                                                   {\$}{\$}(0,0){\$}{\$}                  . As a particular case, we provide efficient formulas for 2-isogenies between Montgomery curves and show that these formulas can be used in isogeny-based cryptosystems without expensive square root computations and without knowledge of a special point of order 8. We also consider elliptic curves in triangular form containing an explicit point of order 3.},
-  groups    = {Isogenies},
   isbn      = {978-3-319-79063-3},
 }
 
@@ -506,17 +501,17 @@ requirement is only polynomial.},
   year      = {2017},
   editor    = {Takagi, Tsuyoshi and Peyrin, Thomas},
   pages     = {330--353},
-  address   = {Cham},
   publisher = {Springer International Publishing},
   abstract  = {There is a recent trend in cryptography to construct protocols based on the hardness of computing isogenies between supersingular elliptic curves. Two prominent examples are Jao-De Feo's key exchange protocol and the resulting encryption scheme by De Feo-Jao-Pl{\^u}t. One particularity of the isogeny problems underlying these protocols is that some additional information is given as input, namely the image of some torsion points with order coprime to the isogeny. This additional information was used in several active attacks against the protocols but the current best passive attacks make no use of it at all.},
   isbn      = {978-3-319-70697-9},
 }
 
-@Misc{BS18,
-  author       = {Xavier Bonnetain and Andr{\'{e}} Schrottenloher},
-  title        = {Quantum Security Analysis of {CSIDH} and Ordinary Isogeny-based Schemes},
-  howpublished = {{IACR} Cryptology ePrint Archive 2018/537},
-  year         = {2018},
+@misc{cryptoeprint:2018:537,
+    author = {Xavier Bonnetain and André Schrottenloher},
+    title = {Quantum Security Analysis of {CSIDH} and Ordinary Isogeny-based Schemes},
+    howpublished = {Cryptology ePrint Archive, Report 2018/537},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/537},
 }
 
 @InProceedings{BIJ18,
@@ -532,7 +527,7 @@ requirement is only polynomial.},
   title     = {A polynomial quantum space attack on {CRS} and {CSIDH}},
   booktitle = {MathCrypt 2018},
   year      = {2018},
-  note      = {to appear},
+  note      = {To appear},
 }
 
 @Article{tani2009claw,
@@ -551,6 +546,7 @@ requirement is only polynomial.},
   title     = {Multiparty Non-Interactive Key Exchange and More from Isogenies on Elliptic Curves},
   booktitle = {MathCrypt 2018},
   year      = {2018},
+  url       = {https://eprint.iacr.org/2018/665},
 }
 
 @InProceedings{10.1007/978-3-319-79063-3_12,
@@ -560,7 +556,6 @@ requirement is only polynomial.},
   year      = {2018},
   editor    = {Lange, Tanja and Steinwandt, Rainer},
   pages     = {248--268},
-  address   = {Cham},
   publisher = {Springer International Publishing},
   abstract  = {Supersingular isogeny-based cryptography is one of the more recent families of post-quantum proposals. An interesting feature is the comparatively low bandwidth occupation in key agreement protocols, which stems from the possibility of key compression. However, compression and decompression introduce a significant overhead to the overall processing cost despite recent progress. In this paper we address the main processing bottlenecks involved in key compression and decompression, and suggest substantial improvements for each of them. Some of our techniques may have an independent interest for other, more conventional areas of elliptic curve cryptography as well.},
   isbn      = {978-3-319-79063-3},
@@ -598,13 +593,13 @@ requirement is only polynomial.},
 
 @Article{flor_sidh_x64,
   author   = {Armanndo Faz-Hern\'{a}ndez and Julio L\'{o}pez and Eduardo Ochoa-Jim\'{e}nez and Francisco Rodr\'{i}guez-Henr\'{i}quez},
-  title    = {A Faster Software Implementation of the Supersingular Isogeny Diffie-Hellman Key Exchange Protocol},
+  title    = {A Faster Software Implementation of the Supersingular Isogeny {Diffie--Hellman} Key Exchange Protocol},
   journal  = {IEEE Transactions on Computers},
   year     = {2017},
-  volume   = {PP},
-  number   = {99},
-  month    = dec,
-  pages    = {1--1},
+  volume   = {67},
+  issue    = {11},
+  month    = nov,
+  pages    = {1622--1636},
   issn     = {0018-9340},
   doi      = {10.1109/TC.2017.2771535},
   keywords = {Acceleration;Cryptography;Elliptic curves;Kernel;Proposals;Protocols;Montgomery ladder;Montgomery reduction;SIDH protocol;post-quantum cryptography},
@@ -652,7 +647,6 @@ requirement is only polynomial.},
   isbn      = {978-3-030-03332-3},
   pages     = {428--456},
   abstract  = {We apply Scholten's construction to give explicit isogenies between the Weil restriction of supersingular Montgomery curves with full rational 2-torsion over {\$}{\$}{\backslash}mathbb {\{}F{\}}{\_}{\{}p^2{\}}{\$}{\$}and corresponding abelian surfaces over {\$}{\$}{\backslash}mathbb {\{}F{\}}{\_}{\{}p{\}}{\$}{\$}. Subsequently, we show that isogeny-based public key cryptography can exploit the fast Kummer surface arithmetic that arises from the theory of theta functions. In particular, we show that chains of 2-isogenies between elliptic curves can instead be computed as chains of Richelot (2, 2)-isogenies between Kummer surfaces. This gives rise to new possibilities for efficient supersingular isogeny-based cryptography.},
-  address   = {Cham},
 }
 
 @InProceedings{10.1007/978-3-030-03332-3_15,
@@ -665,7 +659,6 @@ requirement is only polynomial.},
   isbn      = {978-3-030-03332-3},
   pages     = {395--427},
   abstract  = {We propose an efficient commutative group action suitable for non-interactive key exchange in a post-quantum setting. Our construction follows the layout of the Couveignes--Rostovtsev--Stolbunov cryptosystem, but we apply it to supersingular elliptic curves defined over a large prime field {\$}{\$}{\backslash}mathbb F{\_}p{\$}{\$}, rather than to ordinary elliptic curves. The Diffie--Hellman scheme resulting from the group action allows for public-key validation at very little cost, runs reasonably fast in practice, and has public keys of only 64 bytes at a conjectured AES-128 security level, matching NIST's post-quantum security category I.},
-  address   = {Cham},
 }
 
 @InProceedings{10.1007/978-3-030-03332-3_14,
@@ -678,5 +671,131 @@ requirement is only polynomial.},
   isbn      = {978-3-030-03332-3},
   pages     = {365--394},
   abstract  = {We revisit the ordinary isogeny-graph based cryptosystems of Couveignes and Rostovtsev--Stolbunov, long dismissed as impractical. We give algorithmic improvements that accelerate key exchange in this framework, and explore the problem of generating suitable system parameters for contemporary pre- and post-quantum security that take advantage of these new algorithms. We also prove the session-key security of this key exchange in the Canetti--Krawczyk model, and the IND-CPA security of the related public-key encryption scheme, under reasonable assumptions on the hardness of computing isogeny walks. Our systems admit efficient key-validation techniques that yield CCA-secure encryption, thus providing an important step towards efficient post-quantum non-interactive key exchange (NIKE).},
+}
+
+@misc{cryptoeprint:2018:593,
+  author =        {Anamaria Costache and Brooke Feigon and
+                   Kristin Lauter and Maike Massierer and Anna Puskas},
+  howpublished =  {Cryptology ePrint Archive, Report 2018/593},
+  url =          {https://eprint.iacr.org/2018/593},
+  title =         {Ramanujan graphs in cryptography},
+  year =          {2018},
+}
+
+@inproceedings{Urbanik:2018:SPL:3197507.3197516,
+ author = {Urbanik, David and Jao, David},
+ title = {{SoK}: The Problem Landscape of {SIDH}},
+ booktitle = {Proceedings of the 5th ACM on ASIA Public-Key Cryptography Workshop},
+ series = {APKC '18},
+ year = {2018},
+ isbn = {978-1-4503-5756-2},
+ location = {Incheon, Republic of Korea},
+ pages = {53--60},
+ numpages = {8},
+ doi = {10.1145/3197507.3197516},
+ acmid = {3197516},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {equivalence theorems, isogeny-based cryptography, post-quantum cryptography, sidh, supersingular elliptic curves},
+}
+
+@inproceedings{gelin2017loop,
+  author =        {G{\'e}lin, Alexandre and Wesolowski, Benjamin},
+  booktitle =     {International Workshop on Post-Quantum Cryptography},
+  organization =  {Springer},
+  pages =         {93--106},
+  title =         {Loop-abort faults on supersingular isogeny
+                   cryptosystems},
+  year =          {2017},
+}
+
+@inproceedings{ti2017fault,
+  author =        {Ti, Yan Bo},
+  booktitle =     {International Workshop on Post-Quantum Cryptography},
+  organization =  {Springer},
+  pages =         {107--122},
+  title =         {Fault attack on supersingular isogeny cryptosystems},
+  year =          {2017},
+}
+
+@article{charles+lauter+goren09,
+  author =        {Charles, Denis X. and Goren, Eyal Z. and
+                   Lauter, Kristin E.},
+  journal =       {Journal of Cryptology},
+  month =         jan,
+  number =        {1},
+  pages =         {93--113},
+  title =         {Cryptographic Hash Functions from Expander Graphs},
+  volume =        {22},
+  year =          {2009},
+  abstract =      {Abstract   We propose constructing provable
+                   collision resistant hash functions from expander
+                   graphs in which finding cycles is hard. As examples,
+                   we investigate two specific families of optimal
+                   expander graphs for provable collision resistant hash
+                   function constructions: the families of Ramanujan
+                   graphs constructed by {Lubotzky-Phillips}-Sarnak and
+                   Pizer respectively. When the hash function is
+                   constructed from one of Pizer's Ramanujan graphs,
+                   (the set of supersingular elliptic curves over with
+                   ℓ-isogenies, ℓ a prime different from p), then
+                   collision resistance follows from hardness of
+                   computing isogenies between supersingular elliptic
+                   curves. For the {LPS} graphs, the underlying hard
+                   problem is a representation problem in group theory.
+                   Constructing our hash functions from optimal expander
+                   graphs implies that the outputs closely approximate
+                   the uniform distribution. This property is useful for
+                   arguing that the output is indistinguishable from
+                   random sequences of bits. We estimate the cost per
+                   bit to compute these hash functions, and we implement
+                   our hash function for several members of the Pizer
+                   and {LPS} graph families and give actual timings.},
+  doi =           {10.1007/s00145-007-9002-x},
+  issn =          {0933-2790},
+}
+
+@InProceedings{10.1007/978-3-319-70694-8_1,
+  author    = {Galbraith, Steven D. and Petit, Christophe and Silva, Javier},
+  title     = {Identification Protocols and Signature Schemes Based on Supersingular Isogeny Problems},
+  booktitle = {Advances in Cryptology -- ASIACRYPT 2017},
+  year      = {2017},
+  editor    = {Takagi, Tsuyoshi and Peyrin, Thomas},
+  publisher = {Springer International Publishing},
+  isbn      = {978-3-319-70694-8},
+  pages     = {3--33},
+  abstract  = {We provide a new identification protocol and new signature schemes based on isogeny problems. Our identification protocol relies on the hardness of the endomorphism ring computation problem, arguably the hardest of all problems in this area, whereas the only previous scheme based on isogenies (due to De Feo, Jao and Pl{\^u}t) relied on potentially easier problems. The protocol makes novel use of an algorithm of Kohel-Lauter-Petit-Tignol for the quaternion version of the {\$}{\$}{\backslash}ell {\$}{\$}ℓ-isogeny problem, for which we provide a more complete description and analysis. Our new signature schemes are derived from the identification protocols using the Fiat-Shamir (respectively, Unruh) transforms for classical (respectively, post-quantum) security. We study their efficiency, highlighting very small key sizes and reasonably efficient signing and verification algorithms.},
+}
+
+@InProceedings{10.1007/978-3-319-70972-7_9,
+  author    = {Yoo, Youngho and Azarderakhsh, Reza and Jalali, Amir and Jao, David and Soukharev, Vladimir},
+  title     = {A Post-quantum Digital Signature Scheme Based on Supersingular Isogenies},
+  booktitle = {Financial Cryptography and Data Security},
+  year      = {2017},
+  editor    = {Kiayias, Aggelos},
+  publisher = {Springer International Publishing},
+  isbn      = {978-3-319-70972-7},
+  pages     = {163--181},
+  abstract  = {We present the first general-purpose digital signature scheme based on supersingular elliptic curve isogenies secure against quantum adversaries in the quantum random oracle model with small key sizes. This scheme is an application of Unruh's construction of non-interactive zero-knowledge proofs to an interactive zero-knowledge proof proposed by De Feo, Jao, and Pl{\^u}t. We implement our proposed scheme on an x86-64 PC platform as well as an ARM-powered device. We exploit the state-of-the-art techniques to speed up the computations for general C and assembly. Finally, we provide timing results for real world applications.},
   address   = {Cham},
+}
+
+@misc{cryptoeprint:2018:1059,
+    author = {Daniel J. Bernstein and Tanja Lange and Chloe Martindale and Lorenz Panny},
+    title = {Quantum circuits for the {CSIDH}: optimizing quantum evaluation of isogenies},
+    howpublished = {Cryptology ePrint Archive, Report 2018/1059},
+    year = {2018},
+    url = {https://eprint.iacr.org/2018/1059},
+}
+
+@InProceedings{10.1007/978-3-319-78372-7_11,
+  author    = {Eisentr{\"a}ger, Kirsten and Hallgren, Sean and Lauter, Kristin and Morrison, Travis and Petit, Christophe},
+  title     = {Supersingular Isogeny Graphs and Endomorphism Rings: Reductions and Solutions},
+  booktitle = {Advances in Cryptology -- EUROCRYPT 2018},
+  year      = {2018},
+  editor    = {Nielsen, Jesper Buus and Rijmen, Vincent},
+  pages     = {329--368},
+  publisher = {Springer International Publishing},
+  abstract  = {In this paper, we study several related computational problems for supersingular elliptic curves, their isogeny graphs, and their endomorphism rings. We prove reductions between the problem of path finding in the {\$}{\$}{\backslash}ell {\$}{\$}-isogeny graph, computing maximal orders isomorphic to the endomorphism ring of a supersingular elliptic curve, and computing the endomorphism ring itself. We also give constructive versions of Deuring's correspondence, which associates to a maximal order in a certain quaternion algebra an isomorphism class of supersingular elliptic curves. The reductions are based on heuristics regarding the distribution of norms of elements in quaternion algebras.},
+  isbn      = {978-3-319-78372-7},
 }
