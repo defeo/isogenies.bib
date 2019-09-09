@@ -515,10 +515,15 @@ requirement is only polynomial.},
 
 @InProceedings{BIJ18,
   author       = {Biasse, Jean-Fran\c{c}ois and Iezzi, Annamaria and Jacobson, Michael J. Jr.},
+  editor       = {Chakraborty, Debrup and Iwata, Tetsu},
   title        = {A note on the security of {CSIDH}},
-  booktitle    = {Kangacrypt 2018},
-  url          = {https://arxiv.org/abs/1806.03656},
+  booktitle    = {Progress in Cryptology -- INDOCRYPT 2018},
   year         = {2018},
+  publisher    = {Springer International Publishing},
+  address      = {Cham},
+  pages        = {153--168},
+  isbn         = {978-3-030-05378-9},
+  doi          = {10.1007/978-3-030-05378-9_9}
 }
 
 @InProceedings{Jao-etal-kuperberg-2018,
@@ -949,4 +954,46 @@ requirement is only polynomial.},
     howpublished = {Cryptology ePrint Archive, Report 2019/890},
     year = {2019},
     url = {https://eprint.iacr.org/2019/890},
+}
+
+@InProceedings{10.1007/978-3-030-17656-3_15,
+  author = {Bernstein, Daniel J. and Lange, Tanja and Martindale, Chloe and Panny, Lorenz},
+  editor = {Ishai, Yuval and Rijmen, Vincent},
+  title = {Quantum Circuits for the {CSIDH}: Optimizing Quantum Evaluation of Isogenies},
+  booktitle = {Advances in Cryptology -- EUROCRYPT 2019},
+  year = {2019},
+  publisher = {Springer International Publishing},
+  address = {Cham},
+  pages = {409--441},
+  abstract = {Choosing safe post-quantum parameters for the new CSIDH isogeny-based key-exchange system requires concrete analysis of the cost of quantum attacks. The two main contributions to attack cost are the number of queries in hidden-shift algorithms and the cost of each query. This paper analyzes algorithms for each query, introducing several new speedups while showing that some previous claims were too optimistic for the attacker. This paper includes a full computer-verified simulation of its main algorithm down to the bit-operation level.},
+  isbn = {978-3-030-17656-3},
+  doi = {10.1007/978-3-030-17656-3_15}
+}
+
+@InProceedings{10.1007/978-3-030-12146-4_1,
+  author = {Koshiba, Takeshi and Takashima, Katsuyuki},
+  editor = {Lee, Kwangsu},
+  title = {New Assumptions on Isogenous Pairing Groups with Applications to Attribute-Based Encryption},
+  booktitle = {Information Security and Cryptology -- ICISC 2018},
+  year = {2019},
+  publisher = {Springer International Publishing},
+  address = {Cham},
+  pages = {3--19},
+  abstract = {We introduce new isogeny-related assumptions called Isog-DDH and Isog-DBDH assumptions. By using the assumptions, we reinforce security of several existing (hierarchical) identity-/attribute-based encryption (HIBE/ABE) schemes. While the existing schemes are proven from the standard DBDH assumption, our reinforced secure ones have two incomparable security proofs: one is proven from the DBDH as well and another is proven from the Isog-DDH assumption which is incomparable with DBDH. As a result, if either DBDH or Isog-DDH assumption holds, the proposed HIBE/ABE schemes are secure. For obtaining our (H)IBE secure in the standard model, we assign a unique (product) group called ID-group to each (H)ID, and introduce a new proof technique, i.e., ID-group partitioning by using isogenies as trapdoors.},
+  isbn = {978-3-030-12146-4},
+  doi = {10.1007/978-3-030-12146-4_1}
+}
+
+@InProceedings{10.1007/978-3-030-17659-4_26,
+  author = {De Feo, Luca and Galbraith, Steven D.},
+  editor = {Ishai, Yuval and Rijmen, Vincent},
+  title = {{SeaSign}: Compact Isogeny Signatures from Class Group Actions},
+  booktitle = {Advances in Cryptology -- EUROCRYPT 2019},
+  year = {2019},
+  publisher = {Springer International Publishing},
+  address = {Cham},
+  pages = {759--789},
+  abstract = {We give a new signature scheme for isogenies that combines the class group actions of CSIDH with the notion of Fiat-Shamir with aborts. Our techniques allow to have signatures of size less than one kilobyte at the 128-bit security level, even with tight security reduction (to a non-standard problem) in the quantum random oracle model. Hence our signatures are potentially shorter than lattice signatures, but signing and verification are currently very expensive.},
+  isbn = {978-3-030-17659-4},
+  doi = {10.1007/978-3-030-17659-4_26}
 }
