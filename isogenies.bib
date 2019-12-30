@@ -1117,3 +1117,81 @@ requirement is only polynomial.},
     year = {2019},
     url = {https://eprint.iacr.org/2019/1373},
 }
+
+@InProceedings{10.1007/978-3-030-34578-5_9,
+    author = {Beullens, Ward and Kleinjung, Thorsten and Vercauteren, Frederik},
+    editor = {Galbraith, Steven D. and Moriai, Shiho},
+    title = {{CSI-FiSh}: Efficient Isogeny Based Signatures Through Class Group Computations},
+    booktitle = {Advances in Cryptology -- ASIACRYPT 2019},
+    year = {2019},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {227--247},
+    abstract = {In this paper we report on a new record class group computation of an imaginary quadratic field having 154-digit discriminant, surpassing the previous record of 130 digits. This class group is central to the CSIDH-512 isogeny based cryptosystem, and knowing the class group structure and relation lattice implies efficient uniform sampling and a canonical representation of its elements. Both operations were impossible before and allow us to instantiate an isogeny based signature scheme first sketched by Stolbunov. We further optimize the scheme using multiple public keys and Merkle trees, following an idea by De Feo and Galbraith. We also show that including quadratic twists allows to cut the public key size in half for free. Optimizing for signature size, our implementation takes 390 ms to sign/verify and results in signatures of 263 bytes, at the expense of a large public key. This is 300 times faster and over 3 times smaller than an optimized version of SeaSign for the same parameter set. Optimizing for public key and signature size combined, results in a total size of 1468 bytes, which is smaller than any other post-quantum signature scheme at the 128-bit security level.},
+    isbn = {978-3-030-34578-5}
+}
+
+@InProceedings{10.1007/978-3-030-34578-5_10,
+    author = {De Feo, Luca and Masson, Simon and Petit, Christophe and Sanso, Antonio},
+    editor = {Galbraith, Steven D.  and Moriai, Shiho},
+    title = {Verifiable Delay Functions from Supersingular Isogenies and Pairings},
+    booktitle = {Advances in Cryptology -- ASIACRYPT 2019},
+    year = {2019},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {248--277},
+    abstract = {We present two new Verifiable Delay Functions (VDF) based on assumptions from elliptic curve cryptography. We discuss both the advantages and drawbacks of our constructions, we study their security and we demonstrate their practicality with a proof-of-concept implementation.},
+    isbn = {978-3-030-34578-5}
+}
+
+@InProceedings{10.1007/978-3-030-34578-5_11,
+    author = {Xu, Xiu and Xue, Haiyang and Wang, Kunpeng and Au, Man Ho and Tian, Song},
+    editor = {Galbraith, Steven D.  and Moriai, Shiho},
+    title = {Strongly Secure Authenticated Key Exchange from Supersingular Isogenies},
+    booktitle = {Advances in Cryptology -- ASIACRYPT 2019},
+    year = {2019},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {278--308},
+    abstract = {This paper aims to address the open problem, namely, to find new techniques to design and prove security of supersingular isogeny-based authenticated key exchange (AKE) protocols against the widest possible adversarial attacks, raised by Galbraith in 2018. Concretely, we present two AKEs based on a double-key PKE in the supersingular isogeny setting secure in the sense of CK{\$}{\$}^+{\$}{\$}, one of the strongest security models for AKE. Our contributions are summarised as follows. Firstly, we propose a strong OW-CPA secure PKE, {\$}{\$}{\backslash}mathsf {\{}2PKE{\_}{\{}sidh{\}}{\}}{\$}{\$}, based on SI-DDH assumption. By applying modified Fujisaki-Okamoto transformation, we obtain a [OW-CCA, OW-CPA] secure KEM, {\$}{\$}{\backslash}mathsf {\{}2KEM{\_}{\{}sidh{\}}{\}}{\$}{\$}. Secondly, we propose a two-pass AKE, {\$}{\$}{\backslash}mathsf {\{}SIAKE{\}}{\_}2{\$}{\$}, based on SI-DDH assumption, using {\$}{\$}{\backslash}mathsf {\{}2KEM{\_}{\{}sidh{\}}{\}}{\$}{\$} as a building block. Thirdly, we present a modified version of {\$}{\$}{\backslash}mathsf {\{}2KEM{\_}{\{}sidh{\}}{\}}{\$}{\$} that is secure against leakage under the 1-Oracle SI-DH assumption. Using the modified {\$}{\$}{\backslash}mathsf {\{}2KEM{\_}{\{}sidh{\}}{\}}{\$}{\$} as a building block, we then propose a three-pass AKE, {\$}{\$}{\backslash}mathsf {\{}SIAKE{\}}{\_}3{\$}{\$}, based on 1-Oracle SI-DH assumption. Finally, we prove that both {\$}{\$}{\backslash}mathsf {\{}SIAKE{\}}{\_}2{\$}{\$} and {\$}{\$}{\backslash}mathsf {\{}SIAKE{\}}{\_}3{\$}{\$} are CK{\$}{\$}^+{\$}{\$} secure in the random oracle model and supports arbitrary registration. We also provide an implementation to illustrate the efficiency of our schemes. Our schemes compare favourably against existing isogeny-based AKEs. To the best of our knowledge, they are the first of its kind to offer security against arbitrary registration, wPFS, KCI, and MEX simultaneously. Regarding efficiency, our schemes outperform existing schemes in terms of bandwidth as well as CPU cycle count.},
+    isbn = {978-3-030-34578-5}
+}
+
+@InProceedings{10.1007/978-3-030-34621-8_9,
+    author = {Naehrig, Michael and Renes, Joost},
+    editor = {Galbraith, Steven D.  and Moriai, Shiho},
+    title = {Dual Isogenies and Their Application to Public-Key Compression for Isogeny-Based Cryptography},
+    booktitle = {Advances in Cryptology -- ASIACRYPT 2019},
+    year = {2019},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {243--272},
+    abstract = {The isogeny-based protocols SIDH and SIKE have received much attention for being post-quantum key agreement candidates that retain relatively small keys. A recent line of work has proposed and further improved compression of public keys, leading to the inclusion of public-key compression in the SIKE proposal for Round 2 of the NIST Post-Quantum Cryptography Standardization effort. We show how to employ the dual isogeny to significantly increase performance of compression techniques, reducing their overhead from 160--182{\%} to 77--86{\%} for Alice's key generation and from 98--104{\%} to 59--61{\%} for Bob's across different SIDH parameter sets. For SIKE, we reduce the overhead of (1) key generation from 140--153{\%} to 61--74{\%}, (2) key encapsulation from 67--90{\%} to 38--57{\%}, and (3) decapsulation from 59--65{\%} to 34--39{\%}. This is mostly achieved by speeding up the pairing computations, which has until now been the main bottleneck, but we also improve (deterministic) basis generation.},
+    isbn = {978-3-030-34621-8}
+}
+
+@InProceedings{10.1007/978-3-030-34621-8_10,
+    author = {Kim, Suhri and Yoon, Kisoon and Park, Young-Ho and Hong, Seokhie},
+    editor = {Galbraith, Steven D. and Moriai, Shiho},
+    title = {Optimized Method for Computing Odd-Degree Isogenies on {Edwards} Curves},
+    booktitle = {Advances in Cryptology -- ASIACRYPT 2019},
+    year = {2019},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {273--292},
+    abstract = {In this paper, we present an efficient method to compute arbitrary odd-degree isogenies on Edwards curves. By using the w-coordinate, we optimized the isogeny formula on Edwards curves by Moody and Shumow. We demonstrate that Edwards curves have an additional benefit when recovering the coefficient of the image curve during isogeny computation. For {\$}{\$}{\backslash}ell {\$}{\$}-degree isogeny where {\$}{\$}{\backslash}ell =2s+1{\$}{\$}, our isogeny formula on Edwards curves outperforms Montgomery curves when {\$}{\$}s {\backslash}ge 2{\$}{\$}. To better represent the performance improvements when w-coordinate is used, we implement CSIDH using our isogeny formula. Our implementation is about 20{\%} faster than the previous implementation. The result of our work opens the door for the usage of Edwards curves in isogeny-based cryptography, especially for CSIDH which requires higher degree isogenies.},
+    isbn = {978-3-030-34621-8}
+}
+
+@InProceedings{10.1007/978-3-030-34621-8_11,
+    author = {Altu{\u{g}}, Salim Ali and Chen, Yilei},
+    editor = {Galbraith, Steven D.  and Moriai, Shiho},
+    title = {Hard Isogeny Problems over {RSA} Moduli and Groups with Infeasible Inversion},
+    booktitle = {Advances in Cryptology -- ASIACRYPT 2019},
+    year = {2019},
+    publisher = {Springer International Publishing},
+    address = {Cham},
+    pages = {293--322},
+    abstract = {We initiate the study of computational problems on elliptic curve isogeny graphs defined over RSA moduli. We conjecture that several variants of the neighbor-search problem over these graphs are hard, and provide a comprehensive list of cryptanalytic attempts on these problems. Moreover, based on the hardness of these problems, we provide a construction of groups with infeasible inversion, where the underlying groups are the ideal class groups of imaginary quadratic orders.},
+    isbn = {978-3-030-34621-8}
+}
