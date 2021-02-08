@@ -862,7 +862,7 @@ requirement is only polynomial.},
 
 @misc{cryptoeprint:2019:297,
     author = {Amir Jalali and Reza Azarderakhsh and Mehran Mozaffari Kermani and David Jao},
-    title = {Towards Optimized and Constant-Time CSIDH on Embedded Devices},
+    title = {Towards Optimized and Constant-Time {CSIDH} on Embedded Devices},
     howpublished = {Cryptology ePrint Archive, Report 2019/297},
     year = {2019},
     url = {https://eprint.iacr.org/2019/297},
@@ -965,7 +965,7 @@ requirement is only polynomial.},
   publisher = {Springer International Publishing},
   address = {Cham},
   pages = {409--441},
-  abstract = {Choosing safe post-quantum parameters for the new CSIDH isogeny-based key-exchange system requires concrete analysis of the cost of quantum attacks. The two main contributions to attack cost are the number of queries in hidden-shift algorithms and the cost of each query. This paper analyzes algorithms for each query, introducing several new speedups while showing that some previous claims were too optimistic for the attacker. This paper includes a full computer-verified simulation of its main algorithm down to the bit-operation level.},
+  abstract = {Choosing safe post-quantum parameters for the new {CSIDH} isogeny-based key-exchange system requires concrete analysis of the cost of quantum attacks. The two main contributions to attack cost are the number of queries in hidden-shift algorithms and the cost of each query. This paper analyzes algorithms for each query, introducing several new speedups while showing that some previous claims were too optimistic for the attacker. This paper includes a full computer-verified simulation of its main algorithm down to the bit-operation level.},
   isbn = {978-3-030-17656-3},
   doi = {10.1007/978-3-030-17656-3_15}
 }
@@ -993,7 +993,7 @@ requirement is only polynomial.},
   publisher = {Springer International Publishing},
   address = {Cham},
   pages = {759--789},
-  abstract = {We give a new signature scheme for isogenies that combines the class group actions of CSIDH with the notion of Fiat-Shamir with aborts. Our techniques allow to have signatures of size less than one kilobyte at the 128-bit security level, even with tight security reduction (to a non-standard problem) in the quantum random oracle model. Hence our signatures are potentially shorter than lattice signatures, but signing and verification are currently very expensive.},
+  abstract = {We give a new signature scheme for isogenies that combines the class group actions of {CSIDH} with the notion of Fiat-Shamir with aborts. Our techniques allow to have signatures of size less than one kilobyte at the 128-bit security level, even with tight security reduction (to a non-standard problem) in the quantum random oracle model. Hence our signatures are potentially shorter than lattice signatures, but signing and verification are currently very expensive.},
   isbn = {978-3-030-17659-4},
   doi = {10.1007/978-3-030-17659-4_26}
 }
@@ -1096,7 +1096,7 @@ requirement is only polynomial.},
 
 @misc{cryptoeprint:2019:1404,
     author = {Wouter Castryck and Thomas Decru},
-    title = {CSIDH on the surface},
+    title = {{CSIDH} on the surface},
     howpublished = {Cryptology ePrint Archive, Report 2019/1404},
     year = {2019},
     url = {https://eprint.iacr.org/2019/1404},
@@ -1179,7 +1179,7 @@ requirement is only polynomial.},
     publisher = {Springer International Publishing},
     address = {Cham},
     pages = {273--292},
-    abstract = {In this paper, we present an efficient method to compute arbitrary odd-degree isogenies on Edwards curves. By using the w-coordinate, we optimized the isogeny formula on Edwards curves by Moody and Shumow. We demonstrate that Edwards curves have an additional benefit when recovering the coefficient of the image curve during isogeny computation. For {\$}{\$}{\backslash}ell {\$}{\$}-degree isogeny where {\$}{\$}{\backslash}ell =2s+1{\$}{\$}, our isogeny formula on Edwards curves outperforms Montgomery curves when {\$}{\$}s {\backslash}ge 2{\$}{\$}. To better represent the performance improvements when w-coordinate is used, we implement CSIDH using our isogeny formula. Our implementation is about 20{\%} faster than the previous implementation. The result of our work opens the door for the usage of Edwards curves in isogeny-based cryptography, especially for CSIDH which requires higher degree isogenies.},
+    abstract = {In this paper, we present an efficient method to compute arbitrary odd-degree isogenies on Edwards curves. By using the w-coordinate, we optimized the isogeny formula on Edwards curves by Moody and Shumow. We demonstrate that Edwards curves have an additional benefit when recovering the coefficient of the image curve during isogeny computation. For {\$}{\$}{\backslash}ell {\$}{\$}-degree isogeny where {\$}{\$}{\backslash}ell =2s+1{\$}{\$}, our isogeny formula on Edwards curves outperforms Montgomery curves when {\$}{\$}s {\backslash}ge 2{\$}{\$}. To better represent the performance improvements when w-coordinate is used, we implement {CSIDH} using our isogeny formula. Our implementation is about 20{\%} faster than the previous implementation. The result of our work opens the door for the usage of Edwards curves in isogeny-based cryptography, especially for {CSIDH} which requires higher degree isogenies.},
     isbn = {978-3-030-34621-8}
 }
 
@@ -1351,7 +1351,7 @@ requirement is only polynomial.},
   publisher = {Springer International Publishing},
   address = {Cham},
   pages = {23--33},
-  abstract = {At ASIACRYPT 2018, Castryck, Lange, Martindale, Panny and Renes proposed CSIDH, which is a key-exchange protocol based on isogenies between elliptic curves, and a candidate for post-quantum cryptography. However, the implementation by Castryck et al. is not constant-time. Specifically, a part of the secret key could be recovered by the side-channel attacks. Recently, Meyer, Campos, and Reith proposed a constant-time implementation of CSIDH by introducing dummy isogenies and taking secret exponents only from intervals of non-negative integers. Their non-negative intervals make the calculation cost of their implementation of CSIDH twice that of the worst case of the standard (variable-time) implementation of CSIDH. In this paper, we propose a more efficient constant-time algorithm that takes secret exponents from intervals symmetric with respect to the zero. For using these intervals, we need to keep two torsion points on an elliptic curve and calculation for these points. We implemented our algorithm by extending the implementation in C of Meyer et al. (originally from Castryck et al.). Then our implementation achieved 152.8 million clock cycles, which is about 29.03{\%} faster than that of Meyer et al.},
+  abstract = {At ASIACRYPT 2018, Castryck, Lange, Martindale, Panny and Renes proposed CSIDH, which is a key-exchange protocol based on isogenies between elliptic curves, and a candidate for post-quantum cryptography. However, the implementation by Castryck et al. is not constant-time. Specifically, a part of the secret key could be recovered by the side-channel attacks. Recently, Meyer, Campos, and Reith proposed a constant-time implementation of {CSIDH} by introducing dummy isogenies and taking secret exponents only from intervals of non-negative integers. Their non-negative intervals make the calculation cost of their implementation of {CSIDH} twice that of the worst case of the standard (variable-time) implementation of CSIDH. In this paper, we propose a more efficient constant-time algorithm that takes secret exponents from intervals symmetric with respect to the zero. For using these intervals, we need to keep two torsion points on an elliptic curve and calculation for these points. We implemented our algorithm by extending the implementation in C of Meyer et al. (originally from Castryck et al.). Then our implementation achieved 152.8 million clock cycles, which is about 29.03{\%} faster than that of Meyer et al.},
   isbn = {978-3-030-26834-3}
 }
 
@@ -1364,7 +1364,7 @@ requirement is only polynomial.},
   publisher = {Springer International Publishing},
   address = {Cham},
   pages = {307--325},
-  abstract = {The recently proposed CSIDH primitive is a promising candidate for post quantum static-static key exchanges with very small keys. However, until now there is only a variable-time proof-of-concept implementation by Castryck, Lange, Martindale, Panny, and Renes, recently optimized by Meyer and Reith, which can leak various information about the private key. Therefore, we present an efficient constant-time implementation that samples key elements only from intervals of nonnegative numbers and uses dummy isogenies, which prevents certain kinds of side-channel attacks. We apply several optimizations, e.g. Elligator and the newly introduced SIMBA, in order to get a more efficient implementation.},
+  abstract = {The recently proposed {CSIDH} primitive is a promising candidate for post quantum static-static key exchanges with very small keys. However, until now there is only a variable-time proof-of-concept implementation by Castryck, Lange, Martindale, Panny, and Renes, recently optimized by Meyer and Reith, which can leak various information about the private key. Therefore, we present an efficient constant-time implementation that samples key elements only from intervals of nonnegative numbers and uses dummy isogenies, which prevents certain kinds of side-channel attacks. We apply several optimizations, e.g. Elligator and the newly introduced SIMBA, in order to get a more efficient implementation.},
   isbn = {978-3-030-25510-7}
 }
 
@@ -1377,7 +1377,7 @@ requirement is only polynomial.},
   publisher = {Springer International Publishing},
   address = {Cham},
   pages = {173--193},
-  abstract = {CSIDH is a recent quantum-resistant primitive based on the difficulty of finding isogeny paths between supersingular curves. Recently, two constant-time versions of CSIDH have been proposed: first by Meyer, Campos and Reith, and then by Onuki, Aikawa, Yamazaki and Takagi. While both offer protection against timing attacks and simple power consumption analysis, they are vulnerable to more powerful attacks such as fault injections. In this work, we identify and repair two oversights in these algorithms that compromised their constant-time character. By exploiting Edwards arithmetic and optimal addition chains, we produce the fastest constant-time version of CSIDH to date. We then consider the stronger attack scenario of fault injection, which is relevant for the security of CSIDH static keys in embedded hardware. We propose and evaluate a dummy-free CSIDH algorithm. While these CSIDH variants are slower, their performance is still within a small constant factor of less-protected variants. Finally, we discuss derandomized CSIDH algorithms.},
+  abstract = {{CSIDH} is a recent quantum-resistant primitive based on the difficulty of finding isogeny paths between supersingular curves. Recently, two constant-time versions of {CSIDH} have been proposed: first by Meyer, Campos and Reith, and then by Onuki, Aikawa, Yamazaki and Takagi. While both offer protection against timing attacks and simple power consumption analysis, they are vulnerable to more powerful attacks such as fault injections. In this work, we identify and repair two oversights in these algorithms that compromised their constant-time character. By exploiting Edwards arithmetic and optimal addition chains, we produce the fastest constant-time version of {CSIDH} to date. We then consider the stronger attack scenario of fault injection, which is relevant for the security of {CSIDH} static keys in embedded hardware. We propose and evaluate a dummy-free {CSIDH} algorithm. While these {CSIDH} variants are slower, their performance is still within a small constant factor of less-protected variants. Finally, we discuss derandomized {CSIDH} algorithms.},
   isbn = {978-3-030-30530-7}
 }
 
@@ -1447,7 +1447,7 @@ requirement is only polynomial.},
     publisher = {Springer International Publishing},
     address = {Cham},
     pages = {137--152},
-    abstract = {Recently Castryck, Lange, Martindale, Panny, and Renes published CSIDH, a new key exchange scheme using supersingular elliptic curve isogenies. Due to its small key sizes and the possibility of a non-interactive and a static-static key exchange, CSIDH seems very interesting for practical applications. However, the performance is rather slow. Therefore, we employ some techniques to speed up the algorithms, mainly by restructuring the elliptic curve point multiplications and by using twisted Edwards curves in the isogeny image curve computations, yielding a speed-up factor of 1.33 in comparison to the implementation of Castryck et al. Furthermore, we suggest techniques for constant-time implementations.},
+    abstract = {Recently Castryck, Lange, Martindale, Panny, and Renes published CSIDH, a new key exchange scheme using supersingular elliptic curve isogenies. Due to its small key sizes and the possibility of a non-interactive and a static-static key exchange, {CSIDH} seems very interesting for practical applications. However, the performance is rather slow. Therefore, we employ some techniques to speed up the algorithms, mainly by restructuring the elliptic curve point multiplications and by using twisted Edwards curves in the isogeny image curve computations, yielding a speed-up factor of 1.33 in comparison to the implementation of Castryck et al. Furthermore, we suggest techniques for constant-time implementations.},
     isbn = {978-3-030-05378-9}
 }
 
@@ -1511,7 +1511,7 @@ requirement is only polynomial.},
   publisher = {Springer International Publishing},
   address = {Cham},
   pages = {523--548},
-  abstract = {In this paper, we introduce a polynomial-time algorithm to compute a connecting {\$}{\$}{\backslash}mathcal {\{}O{\}}{\$}{\$}-ideal between two supersingular elliptic curves over {\$}{\$}{\backslash}mathbb {\{}F{\}}{\_}p{\$}{\$} with common {\$}{\$}{\backslash}mathbb {\{}F{\}}{\_}p{\$}{\$}-endomorphism ring {\$}{\$}{\backslash}mathcal {\{}O{\}}{\$}{\$}, given a description of their full endomorphism rings. This algorithm provides a reduction of the security of the CSIDH cryptosystem to the problem of computing endomorphism rings of supersingular elliptic curves. A similar reduction for SIDH appeared at Asiacrypt 2016, but relies on totally different techniques. Furthermore, we also show that any supersingular elliptic curve constructed using the complex-multiplication method can be located precisely in the supersingular isogeny graph by explicitly deriving a path to a known base curve. This result prohibits the use of such curves as a building block for a hash function into the supersingular isogeny graph.},
+  abstract = {In this paper, we introduce a polynomial-time algorithm to compute a connecting {\$}{\$}{\backslash}mathcal {\{}O{\}}{\$}{\$}-ideal between two supersingular elliptic curves over {\$}{\$}{\backslash}mathbb {\{}F{\}}{\_}p{\$}{\$} with common {\$}{\$}{\backslash}mathbb {\{}F{\}}{\_}p{\$}{\$}-endomorphism ring {\$}{\$}{\backslash}mathcal {\{}O{\}}{\$}{\$}, given a description of their full endomorphism rings. This algorithm provides a reduction of the security of the {CSIDH} cryptosystem to the problem of computing endomorphism rings of supersingular elliptic curves. A similar reduction for SIDH appeared at Asiacrypt 2016, but relies on totally different techniques. Furthermore, we also show that any supersingular elliptic curve constructed using the complex-multiplication method can be located precisely in the supersingular isogeny graph by explicitly deriving a path to a known base curve. This result prohibits the use of such curves as a building block for a hash function into the supersingular isogeny graph.},
   isbn = {978-3-030-45724-2}
 }
 
@@ -1687,7 +1687,7 @@ requirement is only polynomial.},
   publisher = {Springer International Publishing},
   address = {Cham},
   pages = {411--439},
-  abstract = {Isogeny-based assumptions have emerged as a viable option for quantum-secure cryptography. Recent works have shown how to build efficient (public-key) primitives from isogeny-based assumptions such as CSIDH and CSI-FiSh. However, in its present form, the landscape of isogenies does not seem very amenable to realizing new cryptographic applications. Isogeny-based assumptions often have unique efficiency and security properties, which makes building new cryptographic applications from them a potentially tedious and time-consuming task.},
+  abstract = {Isogeny-based assumptions have emerged as a viable option for quantum-secure cryptography. Recent works have shown how to build efficient (public-key) primitives from isogeny-based assumptions such as {CSIDH} and {CSI-FiSh}. However, in its present form, the landscape of isogenies does not seem very amenable to realizing new cryptographic applications. Isogeny-based assumptions often have unique efficiency and security properties, which makes building new cryptographic applications from them a potentially tedious and time-consuming task.},
   isbn = {978-3-030-64834-3}
 }
 
