@@ -12,11 +12,28 @@
 
 @Electronic{SIKE,
   shorthand = {SIKE},
-  author = {Azarderakhsh, Reza and Koziel, Brian and Campagna, Matt and LaMacchia, Brian and Costello, Craig and Longa, Patrick and De Feo, Luca and Naehrig, Michael and Hess, Basil and Renes, Joost and Jalali, Amir and Soukharev, Vladimir and Jao, David and Urbanik, David},
-  year   = {2017},
+  author = {
+    Reza Azarderakhsh and
+    Matthew Campagna and
+    Craig Costello and
+    De Feo, Luca and
+    Basil Hess and
+    Aaron Hutchinson and
+    Amir Jalali and
+    David Jao and
+    Koray Karabina and
+    Brian Koziel and
+    Brian LaMacchia and
+    Patrick Longa and
+    Michael Naehrig and
+    Geovandro Pereira and
+    Joost Renes and
+    Vladimir Soukharev and
+    David Urbanikand},
+  year   = {2020},
   title  = {Supersingular Isogeny Key Encapsulation},
   url    = {http://sike.org},
-  date   = {2017-11-30},
+  date   = {2020-10-10},
   groups = {Isogenies},
 }
 
@@ -38,6 +55,7 @@
   volume  = {8},
   number  = {1},
   pages   = {1--29},
+  doi     = {10.1515/jmc-2012-0016},
   groups  = {Isogenies},
 }
 
@@ -109,6 +127,7 @@
   volume  = {8},
   number  = {3},
   pages   = {209--247},
+  doi     = {10.1515/jmc-2012-0015},
   groups  = {Isogenies},
 }
 
@@ -269,9 +288,9 @@
   volume               = {35},
   number               = {1},
   pages                = {170--188},
-  eprint               = {quant-ph/0302112},
   groups               = {Isogenies},
   posted-at            = {2012-07-06 21:19:46},
+  doi                  = {10.1137/S0097539703436345},
 }
 
 @InProceedings{Kuperberg2013,
@@ -526,12 +545,15 @@ requirement is only polynomial.},
   doi          = {10.1007/978-3-030-05378-9_9}
 }
 
-@InProceedings{Jao-etal-kuperberg-2018,
-  author    = {Jao, David and LeGrow, Jason and Leonardi, Christopher and Ruiz-Lopez, Luiz},
-  title     = {A polynomial quantum space attack on {CRS} and {CSIDH}},
-  booktitle = {MathCrypt 2018},
-  year      = {2018},
-  note      = {To appear},
+@article{Jao-etal-kuperberg-2018,
+  author = {David Jao and Jason LeGrow and Christopher Leonardi and Luis Ruiz-Lopez},
+  doi = {doi:10.1515/jmc-2015-0057},
+  title = {A subexponential-time, polynomial quantum space algorithm for inverting the {CM} group action},
+  journal = {Journal of Mathematical Cryptology},
+  number = {1},
+  volume = {14},
+  year = {2020},
+  pages = {129--138}
 }
 
 @Article{tani2009claw,
@@ -543,6 +565,7 @@ requirement is only polynomial.},
   number    = {50},
   pages     = {5285--5297},
   publisher = {Elsevier},
+  doi       = {10.1016/j.tcs.2009.08.030},
 }
 
 @InProceedings{Boneh2018,
@@ -782,6 +805,7 @@ requirement is only polynomial.},
   pages     = {163--181},
   abstract  = {We present the first general-purpose digital signature scheme based on supersingular elliptic curve isogenies secure against quantum adversaries in the quantum random oracle model with small key sizes. This scheme is an application of Unruh's construction of non-interactive zero-knowledge proofs to an interactive zero-knowledge proof proposed by De Feo, Jao, and Pl{\^u}t. We implement our proposed scheme on an x86-64 PC platform as well as an ARM-powered device. We exploit the state-of-the-art techniques to speed up the computations for general C and assembly. Finally, we provide timing results for real world applications.},
   address   = {Cham},
+  doi       = {10.1007/978-3-319-70972-7_9},
 }
 
 @misc{cryptoeprint:2018:1059,
@@ -1664,6 +1688,7 @@ requirement is only polynomial.},
   keywords             = {elliptic\_curve, isogenies},
   posted-at            = {2010-11-21 22:45:34},
   school               = {University of California at Berkley},
+  url                  = {http://iml.univ-mrs.fr/~kohel/pub/thesis.pdf},
 }
 
 @InProceedings{mestre86,
@@ -1692,13 +1717,15 @@ requirement is only polynomial.},
 }
 
 @article{moody2016analogues,
-  title={Analogues of V{\'e}lu's formulas for isogenies on alternate models of elliptic curves},
+  title={Analogues of {V\'elu's} formulas for isogenies on alternate models of elliptic curves},
   author={Moody, Dustin and Shumow, Daniel},
   journal={Mathematics of Computation},
+  publisher = {American Mathematical Society},
   volume={85},
   number={300},
   pages={1929--1951},
-  year={2016}
+  year={2016},
+  doi={10.1090/mcom/3036},
 }
 
 @article{galbraith2018computational,
@@ -1709,7 +1736,8 @@ requirement is only polynomial.},
   number={10},
   pages={265},
   year={2018},
-  publisher={Springer}
+  publisher={Springer},
+  doi={10.1007/s11128-018-2023-6},
 }
 
 @article {10.1515/jmc-2019-0021,
@@ -1784,7 +1812,7 @@ requirement is only polynomial.},
     url = {https://eprint.iacr.org/2020/1593},
 }
 
-@InProceedings{AC:DKLPW20,
+@InProceedings{10.1007/978-3-030-64837-4_3,
   author =       "Luca {De Feo} and
                   David Kohel and
                   Antonin Leroux and
@@ -1824,5 +1852,18 @@ requirement is only polynomial.},
   number={1},
   pages={7--22},
   year={2020},
-  publisher={Mathematical Sciences Publishers}
+  publisher={Mathematical Sciences Publishers},
+  doi={10.2140/obs.2020.4.7},
+}
+
+@article{bernstein2020faster,
+  title={Faster computation of isogenies of large prime degree},
+  author={Bernstein, Daniel J and De Feo, Luca and Leroux, Antonin and Smith, Benjamin},
+  journal={Open Book Series},
+  volume={4},
+  number={1},
+  pages={39--55},
+  year={2020},
+  publisher={Mathematical Sciences Publishers},
+  doi={10.2140/obs.2020.4.39},
 }
